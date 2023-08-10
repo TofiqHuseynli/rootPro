@@ -1,0 +1,74 @@
+table {
+  width: 100%;
+}
+
+table td,
+th {
+  
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color:#e7e7e7;
+  }
+
+   tr.dark:nth-child(even) {
+    background-color:#3a3939;
+  }
+
+  .btn-data{
+    width: 50px;
+  }
+
+  .dark-mode{
+    color: white!important;
+    background-color: black;
+    transition: 0.3s ease;
+}
+
+  .unvisible{
+    display: none;
+    width: 10px;
+    
+  }
+
+  .visible{
+    display: block;
+    width: 0px;
+    padding: 16px 0px!important;
+    margin-left: 10px!important;
+    
+    
+  }
+
+  .employ{
+    height: 100vh;
+    width: 100%;
+
+  }
+
+
+/* table .head{
+    background-color: rebeccapurple;
+    text-align: center;
+}
+
+table .elements {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+table tr td{
+    width: 200px;
+    height: 40px;
+
+    
+    
+    
+    
+}
+ */

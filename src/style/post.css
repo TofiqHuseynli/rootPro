@@ -1,0 +1,15 @@
+.imputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark-mode-modal{
+    background-color:#202020;
+    color: white;
+   
+}
+
+.dark-mode-modal-input{
+    background-color: #646464;
+}
+

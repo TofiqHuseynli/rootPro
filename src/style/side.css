@@ -1,0 +1,60 @@
+body,*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    overflow: hidden;
+}
+
+.side {
+    width: 300px;
+    height: auto;
+    background-color:white;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    padding: 0px 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px black;
+    display: block;
+    
+}
+
+.check{
+    color: green;
+}
+
+.mode-btn{
+    position: relative;
+
+}
+
+
+.light-them{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.dark-them button, .light-them button{
+    display: flex;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.dark-them button span{
+    margin-right: 10px;
+}
+
+.light-them button span{
+    margin-right: 10px;
+}
+
+.dark-them{
+    display: flex;
+    justify-content: space-between;
+}
+

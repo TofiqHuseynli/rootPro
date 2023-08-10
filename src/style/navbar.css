@@ -1,0 +1,13 @@
+.dark-mode-nav{
+    color: white!important;
+}
+
+.active{
+   height: 35px;
+    border-bottom: 2px solid rgb(62, 167, 167);
+    
+}
+
+.not-show{
+    display: none;
+}
